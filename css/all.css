@@ -149,18 +149,26 @@ table {
 @font-face {
   font-family: ChenYuluoyan-Thin-Monospaced;
   src: url("/fonts/ChenYuluoyan-Thin-Monospaced.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: ZapfinoLinotypeOne;
   src: url("/fonts/ZapfinoLinotypeOne.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: Bodoni72C Bold;
   src: url("/fonts/Bodoni72C Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
   font-family: 華康秀風體;
   src: url("/fonts/華康秀風體.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
 }
 .cover {
   text-align: center;
