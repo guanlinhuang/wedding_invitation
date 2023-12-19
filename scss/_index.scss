@@ -1,0 +1,15 @@
+.cover {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "ZapfinoLinotypeOne";
+    font-size: 100px;
+    height: 932px;
+
+    p {
+        padding: 40px;
+        display: inline-block;
+        line-height: 1em;
+    }
+}

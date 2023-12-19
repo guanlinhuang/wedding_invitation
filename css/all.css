@@ -1,0 +1,272 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap {
+  font-family: "華康秀風體";
+  background-color: rgb(142, 59, 50);
+  color: rgb(195, 161, 111);
+}
+
+.container {
+  max-width: 430px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: ChenYuluoyan-Thin-Monospaced;
+  src: url("/font_family/ChenYuluoyan-Thin-Monospaced.woff") format("woff");
+}
+@font-face {
+  font-family: ZapfinoLinotypeOne;
+  src: url("/font_family/ZapfinoLinotypeOne.woff2") format("woff2");
+}
+@font-face {
+  font-family: Bodoni72C Bold;
+  src: url("/font_family/Bodoni72C Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 華康秀風體;
+  src: url("/font_family/華康秀風體.woff") format("woff");
+}
+.cover {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "ZapfinoLinotypeOne";
+  font-size: 100px;
+  height: 932px;
+}
+.cover p {
+  padding: 40px;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.header {
+  padding-top: 120px;
+  padding-left: 30px;
+  line-height: 50px;
+}
+.header h1 {
+  font-size: 60px;
+  color: rgb(205, 154, 134);
+  font-family: ChenYuluoyan-Thin-Monospaced;
+}
+.header p {
+  font-family: "Bodoni72C Bold";
+  font-size: 17px;
+  color: rgb(195, 161, 111);
+  letter-spacing: 5px;
+}
+.header img {
+  width: 40px;
+}
+
+.content {
+  padding: 140px 40px 50px 40px;
+  line-height: 35px;
+  font-size: 15px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.content .container {
+  display: flex;
+  justify-content: space-around;
+}
+.content .groom,
+.content .bride {
+  width: 170px;
+}
+.content .name {
+  padding-bottom: 20px;
+  font-size: 30px;
+}
+.content .parents_name {
+  font-size: 20px;
+}
+.content img {
+  width: 60px;
+}
+
+.footer {
+  padding: 0 40px 70px 40px;
+  text-align: center;
+  font-size: 20px;
+}
+.footer .invite {
+  font-size: 25px;
+}
+.footer .date {
+  padding-top: 20px;
+  font-size: 40px;
+}
+.footer .time {
+  padding-top: 5px;
+}
+.footer .location {
+  padding: 30px 0 15px 0;
+}
+.footer .invite::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: rgb(195, 161, 111);
+  top: 62.5%;
+  left: 12%;
+}
+.footer .invite::after {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background-color: rgb(195, 161, 111);
+  top: 62.5%;
+  right: 12%;
+}
+.footer p {
+  font-family: "Bodoni72C Bold";
+  font-size: 17px;
+  color: rgb(195, 161, 111);
+  letter-spacing: 7px;
+  padding-top: 60px;
+}
+.footer .weddinginvitation {
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=all.css.map */
