@@ -1,13 +1,13 @@
 .cover {
     width: 414px;
-    height: 896px;
-    // border: solid 3px #000;
+    height: 714px;
+    border: solid 3px #000;
     box-sizing: border-box;
-    // margin: auto;
+    margin: auto;
 }
 
 .cover2 {
-    height: 896px;
+    height: 714px;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -24,14 +24,14 @@
 
 .content {
     width: 414px;
-    height: 896px;
-    // border: solid 3px #000;
+    height: 714px;
+    border: solid 3px #000;
     box-sizing: border-box;
     margin: auto;
 }
 
 .title {
-    padding-top: 120px;
+    padding-top: 50px;
     padding-left: 30px;
     line-height: 50px;
 
@@ -54,7 +54,7 @@
 }
 
 .content2 {
-    padding: 130px 40px 40px 40px;
+    padding: 50px 40px 40px 40px;
     line-height: 35px;
     font-size: 15px;
     color: #FFFFFF;
