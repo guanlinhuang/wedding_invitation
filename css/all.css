@@ -138,12 +138,11 @@ table {
   font-family: "華康秀風體";
   background-color: rgb(142, 59, 50);
   color: rgb(195, 161, 111);
+  overflow: hidden;
 }
 
 .container {
-  max-width: 430px;
   margin: 0 auto;
-  box-sizing: border-box;
 }
 
 @font-face {
@@ -163,64 +162,78 @@ table {
   src: url("../fonts/華康秀風體.woff") format("woff");
 }
 .cover {
+  width: 414px;
+  height: 896px;
+  box-sizing: border-box;
+}
+
+.cover2 {
+  height: 896px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   font-family: "ZapfinoLinotypeOne";
   font-size: 100px;
-  height: 932px;
 }
-.cover p {
+.cover2 p {
   padding: 40px;
   display: inline-block;
   line-height: 1em;
 }
 
-.header {
+.content {
+  width: 414px;
+  height: 896px;
+  box-sizing: border-box;
+  margin: auto;
+}
+
+.title {
   padding-top: 120px;
   padding-left: 30px;
   line-height: 50px;
 }
-.header h1 {
+.title h1 {
   font-size: 60px;
   color: rgb(205, 154, 134);
   font-family: ChenYuluoyan-Thin-Monospaced;
 }
-.header p {
+.title p {
   font-family: "Bodoni72C Bold";
   font-size: 17px;
   color: rgb(195, 161, 111);
   letter-spacing: 5px;
 }
-.header img {
+.title img {
   width: 40px;
 }
 
-.content {
-  padding: 140px 40px 50px 40px;
+.content2 {
+  padding: 130px 40px 40px 40px;
   line-height: 35px;
   font-size: 15px;
   color: #FFFFFF;
   text-align: center;
 }
-.content .container {
+.content2 .container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
-.content .groom,
-.content .bride {
+.content2 .groom,
+.content2 .bride {
   width: 170px;
 }
-.content .name {
+.content2 .name {
   padding-bottom: 20px;
   font-size: 30px;
 }
-.content .parents_name {
+.content2 .parents_name {
   font-size: 20px;
 }
-.content img {
-  width: 60px;
+.content2 img {
+  width: 30px;
 }
 
 .footer {
@@ -247,7 +260,7 @@ table {
   width: 100px;
   height: 1px;
   background-color: rgb(195, 161, 111);
-  top: 62.5%;
+  top: 163%;
   left: 12%;
 }
 .footer .invite::after {
@@ -256,7 +269,7 @@ table {
   width: 100px;
   height: 1px;
   background-color: rgb(195, 161, 111);
-  top: 62.5%;
+  top: 163%;
   right: 12%;
 }
 .footer p {
@@ -269,4 +282,85 @@ table {
 .footer .weddinginvitation {
   display: flex;
   justify-content: space-around;
+}
+
+.cover2 {
+  position: relative;
+}
+.cover2 .to-bottom1, .cover2 .to-bottom2, .cover2 .to-bottom3 {
+  cursor: pointer;
+  width: 30px;
+  height: 50px;
+  position: relative;
+  position: absolute;
+  top: 90%;
+  left: 46.5%;
+}
+.cover2 .to-bottom1:before, .cover2 .to-bottom2:before, .cover2 .to-bottom3:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid rgb(195, 161, 111);
+  border-right: 2px solid rgb(195, 161, 111);
+  transform: rotate(135deg) translate(10%, 0);
+  top: 20%;
+  left: 25%;
+  animation: toBottom 2s infinite ease-in;
+}
+.cover2 .to-bottom2 {
+  top: 91.5%;
+}
+.cover2 .to-bottom3 {
+  top: 93%;
+}
+@keyframes toBottom {
+  0%, 30% {
+    top: 0%;
+    opacity: 1;
+  }
+  80% {
+    top: 5%;
+    opacity: 0.3;
+  }
+  90%, 100% {
+    top: 20%;
+    opacity: 0;
+  }
+}
+
+.footer .to-top {
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid white;
+  position: relative;
+  margin-bottom: 100px;
+}
+.footer .to-top:before {
+  content: "";
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  border-top: 2px solid white;
+  border-right: 2px solid white;
+  transform: rotate(-45deg) translate(-70%, 0);
+  top: 20%;
+  left: 50%;
+  animation: toTop 2s infinite ease-in;
+}
+@keyframes toTop {
+  0%, 30% {
+    top: 20%;
+    opacity: 1;
+  }
+  80% {
+    top: 5%;
+    opacity: 0.3;
+  }
+  90%, 100% {
+    top: 0%;
+    opacity: 0;
+  }
 }/*# sourceMappingURL=all.css.map */
