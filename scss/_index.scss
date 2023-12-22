@@ -6,7 +6,7 @@
     margin: auto;
     @include ipad_air{
         height: 1200px;
-        border: solid 3px #000;
+        // border: solid 3px #000;
     }
 }
 
@@ -24,7 +24,7 @@
 
     @include ipad_air{
         height: 1000px;
-        border: solid 3px #000;
+        // border: solid 3px #000;
     }
 
     p {
@@ -50,8 +50,7 @@
 
     @include ipad_air{
         height: 1200px;
-        border: solid 3px #000;
-        
+        // border: solid 3px #000;
     }
 }
 
@@ -62,7 +61,7 @@
     margin-bottom: 0;
     @include ipad_air{
         height: 1000px;
-        border: solid 3px #000;
+        // border: solid 3px #000;
     }
 }
 

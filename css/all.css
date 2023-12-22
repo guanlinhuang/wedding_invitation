@@ -142,7 +142,6 @@ table {
 }
 
 .container {
-  max-width: 1180px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -169,10 +168,9 @@ table {
   box-sizing: border-box;
   margin: auto;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .cover {
     height: 1200px;
-    border: solid 3px #000;
   }
 }
 
@@ -186,10 +184,9 @@ table {
   font-family: "ZapfinoLinotypeOne";
   font-size: 100px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .cover2 {
     height: 1000px;
-    border: solid 3px #000;
   }
 }
 .cover2 p {
@@ -210,10 +207,9 @@ table {
   flex-direction: column;
   justify-content: flex-end;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .content {
     height: 1200px;
-    border: solid 3px #000;
   }
 }
 
@@ -222,10 +218,9 @@ table {
   box-sizing: border-box;
   margin-bottom: 0;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .content2 {
     height: 1000px;
-    border: solid 3px #000;
   }
 }
 
@@ -234,7 +229,7 @@ table {
   padding-left: 10px;
   line-height: 50px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .title {
     padding-top: 150px;
     padding-left: 170px;
@@ -262,7 +257,7 @@ table {
   color: #FFFFFF;
   text-align: center;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .content3 {
     padding: 100px 0 90px 0;
   }
@@ -279,7 +274,7 @@ table {
 .content3 .groom {
   padding-left: 40px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .content3 .groom {
     padding-left: 200px;
   }
@@ -287,7 +282,7 @@ table {
 .content3 .bride {
   padding-right: 40px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .content3 .bride {
     padding-right: 200px;
   }
@@ -316,7 +311,7 @@ table {
   padding-top: 20px;
   font-size: 40px;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .footer .week {
     padding-top: 10px;
   }
@@ -336,7 +331,7 @@ table {
   top: 4%;
   left: 12%;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .footer .invite::before {
     left: 30%;
   }
@@ -350,7 +345,7 @@ table {
   top: 4%;
   right: 12%;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .footer .invite::after {
     right: 30%;
   }
@@ -366,7 +361,7 @@ table {
   display: flex;
   justify-content: space-around;
 }
-@media (max-width: 1024px) {
+@media (min-width: 820px) {
   .footer .weddinginvitation {
     padding: 0 180px;
   }
