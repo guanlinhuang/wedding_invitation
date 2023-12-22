@@ -18,6 +18,11 @@
     font-family: "ZapfinoLinotypeOne";
     font-size: 100px;
 
+    @include ipad_air{
+        height: 670px;
+        border: solid 3px #000;
+    }
+
     p {
         padding: 40px;
         display: inline-block;
@@ -45,12 +50,19 @@
     // border: solid 3px #000;
     box-sizing: border-box;
     margin-bottom: 0;
+    @include ipad_air{
+        height: 670px;
+        border: solid 3px #000;
+    }
 }
 
 .title {
     padding-top: 50px;
     padding-left: 10px;
     line-height: 50px;
+    @include ipad_air{
+        padding-left: 170px;
+    }
 
     h1 {
         font-size: 50px;
@@ -89,9 +101,15 @@
     }
     .groom{
         padding-left: 40px;
+        @include ipad_air{
+            padding-left: 200px;
+        }
     }
     .bride{
         padding-right: 40px;
+        @include ipad_air{
+            padding-right: 200px;
+        }
     }
 
     .name {
@@ -139,6 +157,9 @@
         background-color: rgb(195, 161, 111);
         top: 4%;
         left: 12%;
+        @include ipad_air{
+        left: 30%;;
+        }
     }
 
     .invite::after {
@@ -149,6 +170,9 @@
         background-color: rgb(195, 161, 111);
         top: 4%;
         right: 12%;
+        @include ipad_air{
+            right: 30%;;
+            }
     }
 
     p {
@@ -162,6 +186,9 @@
     .weddinginvitation {
         display: flex;
         justify-content: space-around;
+        @include ipad_air{
+            padding: 0 180px;
+            }
     }
 }
 

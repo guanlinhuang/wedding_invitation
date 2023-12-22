@@ -142,7 +142,7 @@ table {
 }
 
 .container {
-  max-width: 430px;
+  max-width: 1180px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -180,6 +180,12 @@ table {
   font-family: "ZapfinoLinotypeOne";
   font-size: 100px;
 }
+@media (max-width: 1024px) {
+  .cover2 {
+    height: 670px;
+    border: solid 3px #000;
+  }
+}
 .cover2 p {
   padding: 40px;
   display: inline-block;
@@ -204,11 +210,22 @@ table {
   box-sizing: border-box;
   margin-bottom: 0;
 }
+@media (max-width: 1024px) {
+  .content2 {
+    height: 670px;
+    border: solid 3px #000;
+  }
+}
 
 .title {
   padding-top: 50px;
   padding-left: 10px;
   line-height: 50px;
+}
+@media (max-width: 1024px) {
+  .title {
+    padding-left: 170px;
+  }
 }
 .title h1 {
   font-size: 50px;
@@ -244,8 +261,18 @@ table {
 .content3 .groom {
   padding-left: 40px;
 }
+@media (max-width: 1024px) {
+  .content3 .groom {
+    padding-left: 200px;
+  }
+}
 .content3 .bride {
   padding-right: 40px;
+}
+@media (max-width: 1024px) {
+  .content3 .bride {
+    padding-right: 200px;
+  }
 }
 .content3 .name {
   padding-bottom: 20px;
@@ -286,6 +313,11 @@ table {
   top: 4%;
   left: 12%;
 }
+@media (max-width: 1024px) {
+  .footer .invite::before {
+    left: 30%;
+  }
+}
 .footer .invite::after {
   content: "";
   position: absolute;
@@ -294,6 +326,11 @@ table {
   background-color: rgb(195, 161, 111);
   top: 4%;
   right: 12%;
+}
+@media (max-width: 1024px) {
+  .footer .invite::after {
+    right: 30%;
+  }
 }
 .footer p {
   font-family: "Bodoni72C Bold";
@@ -305,6 +342,11 @@ table {
 .footer .weddinginvitation {
   display: flex;
   justify-content: space-around;
+}
+@media (max-width: 1024px) {
+  .footer .weddinginvitation {
+    padding: 0 180px;
+  }
 }
 
 .cover2 {
