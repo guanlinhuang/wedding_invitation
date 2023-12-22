@@ -4,6 +4,10 @@
     // border: solid 3px #000;
     box-sizing: border-box;
     margin: auto;
+    @include ipad_air{
+        height: 1200px;
+        border: solid 3px #000;
+    }
 }
 
 .cover2 {
@@ -19,7 +23,7 @@
     font-size: 100px;
 
     @include ipad_air{
-        height: 670px;
+        height: 1000px;
         border: solid 3px #000;
     }
 
@@ -43,6 +47,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+
+    @include ipad_air{
+        height: 1200px;
+        border: solid 3px #000;
+        
+    }
 }
 
 .content2{
@@ -51,7 +61,7 @@
     box-sizing: border-box;
     margin-bottom: 0;
     @include ipad_air{
-        height: 670px;
+        height: 1000px;
         border: solid 3px #000;
     }
 }
@@ -61,6 +71,7 @@
     padding-left: 10px;
     line-height: 50px;
     @include ipad_air{
+        padding-top: 150px;
         padding-left: 170px;
     }
 
@@ -88,6 +99,9 @@
     font-size: 15px;
     color: #FFFFFF;
     text-align: center;
+    @include ipad_air{
+        padding: 100px 0 90px 0;
+    }
 
     .container {
         display: flex;
@@ -139,6 +153,11 @@
     .date {
         padding-top: 20px;
         font-size: 40px;
+    }
+    .week{
+        @include ipad_air{
+            padding-top: 10px;
+        }
     }
 
     .time {

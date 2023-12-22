@@ -169,6 +169,12 @@ table {
   box-sizing: border-box;
   margin: auto;
 }
+@media (max-width: 1024px) {
+  .cover {
+    height: 1200px;
+    border: solid 3px #000;
+  }
+}
 
 .cover2 {
   height: 714px;
@@ -182,7 +188,7 @@ table {
 }
 @media (max-width: 1024px) {
   .cover2 {
-    height: 670px;
+    height: 1000px;
     border: solid 3px #000;
   }
 }
@@ -204,6 +210,12 @@ table {
   flex-direction: column;
   justify-content: flex-end;
 }
+@media (max-width: 1024px) {
+  .content {
+    height: 1200px;
+    border: solid 3px #000;
+  }
+}
 
 .content2 {
   height: 714px;
@@ -212,7 +224,7 @@ table {
 }
 @media (max-width: 1024px) {
   .content2 {
-    height: 670px;
+    height: 1000px;
     border: solid 3px #000;
   }
 }
@@ -224,6 +236,7 @@ table {
 }
 @media (max-width: 1024px) {
   .title {
+    padding-top: 150px;
     padding-left: 170px;
   }
 }
@@ -248,6 +261,11 @@ table {
   font-size: 15px;
   color: #FFFFFF;
   text-align: center;
+}
+@media (max-width: 1024px) {
+  .content3 {
+    padding: 100px 0 90px 0;
+  }
 }
 .content3 .container {
   display: flex;
@@ -297,6 +315,11 @@ table {
 .footer .date {
   padding-top: 20px;
   font-size: 40px;
+}
+@media (max-width: 1024px) {
+  .footer .week {
+    padding-top: 10px;
+  }
 }
 .footer .time {
   padding-top: 5px;
