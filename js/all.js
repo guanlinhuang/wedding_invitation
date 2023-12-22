@@ -22,27 +22,27 @@ const toBottom3 = document.querySelector('.to-bottom3');
 const toTop = document.querySelector('.to-top');
 
 toBottom1.addEventListener('click', function () {
-  window.scrollBy({
-    top: window.innerHeight,
+  window.scrollTo({
+    top: 2000,
     behavior: 'smooth'
   });
 })
 toBottom2.addEventListener('click', function () {
-  window.scrollBy({
-    top: window.innerHeight,
+  window.scrollTo({
+    top: 2000,
     behavior: 'smooth'
   });
 })
 toBottom3.addEventListener('click', function () {
-  window.scrollBy({
-    top: window.innerHeight,
+  window.scrollTo({
+    top: 2000,
     behavior: 'smooth'
   });
 })
 
-toTop.addEventListener('click', function () {
-  window.scrollTo({
-    top: 0,
-    behavior: 'smooth'
-  });
-})
+// toTop.addEventListener('click', function () {
+//   window.scrollTo({
+//     top: 0,
+//     behavior: 'smooth'
+//   });
+// })
