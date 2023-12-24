@@ -175,7 +175,7 @@ table {
 }
 
 .cover2 {
-  height: 714px;
+  height: 700px;
   box-sizing: border-box;
   text-align: center;
   display: flex;
@@ -212,6 +212,11 @@ table {
     height: 1200px;
   }
 }
+@media (min-width: 1024px) {
+  .content .container {
+    width: 1024px;
+  }
+}
 
 .content2 {
   height: 714px;
@@ -232,7 +237,12 @@ table {
 @media (min-width: 820px) {
   .title {
     padding-top: 150px;
-    padding-left: 170px;
+    padding-left: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  .title {
+    padding-left: 450px;
   }
 }
 .title h1 {
@@ -240,11 +250,21 @@ table {
   color: rgb(205, 154, 134);
   font-family: ChenYuluoyan-Thin-Monospaced;
 }
+@media (min-width: 1024px) {
+  .title h1 {
+    font-size: 60px;
+  }
+}
 .title p {
   font-family: "Bodoni72C Bold";
   font-size: 15px;
   color: rgb(195, 161, 111);
   letter-spacing: 5px;
+}
+@media (min-width: 1024px) {
+  .title p {
+    font-size: 20px;
+  }
 }
 .title img {
   width: 40px;
@@ -262,6 +282,11 @@ table {
     padding: 100px 0 90px 0;
   }
 }
+@media (min-width: 1024px) {
+  .content3 {
+    font-size: 25px;
+  }
+}
 .content3 .container {
   display: flex;
   justify-content: space-around;
@@ -271,12 +296,23 @@ table {
 .content3 .bride {
   width: 170px;
 }
+@media (min-width: 1024px) {
+  .content3 .groom,
+  .content3 .bride {
+    width: 200px;
+  }
+}
 .content3 .groom {
   padding-left: 40px;
 }
 @media (min-width: 820px) {
   .content3 .groom {
     padding-left: 200px;
+  }
+}
+@media (min-width: 1024px) {
+  .content3 .groom {
+    padding-left: 250px;
   }
 }
 .content3 .bride {
@@ -287,25 +323,56 @@ table {
     padding-right: 200px;
   }
 }
+@media (min-width: 1024px) {
+  .content3 .bride {
+    padding-right: 250px;
+  }
+}
 .content3 .name {
   padding-bottom: 20px;
   font-size: 30px;
 }
+@media (min-width: 1024px) {
+  .content3 .name {
+    padding-top: 10px;
+    font-size: 40px;
+  }
+}
 .content3 .parents_name {
   font-size: 20px;
 }
+@media (min-width: 1024px) {
+  .content3 .parents_name {
+    font-size: 30px;
+  }
+}
 .content3 img {
   width: 30px;
+}
+@media (min-width: 1024px) {
+  .content3 img {
+    width: 40px;
+  }
 }
 
 .footer {
   padding: 0 40px 70px 40px;
   text-align: center;
   font-size: 20px;
-  position: relative;
+}
+@media (min-width: 1024px) {
+  .footer {
+    font-size: 30px;
+  }
 }
 .footer .invite {
   font-size: 25px;
+  position: relative;
+}
+@media (min-width: 1024px) {
+  .footer .invite {
+    font-size: 35px;
+  }
 }
 .footer .date {
   padding-top: 20px;
@@ -328,12 +395,18 @@ table {
   width: 90px;
   height: 1px;
   background-color: rgb(195, 161, 111);
-  top: 4%;
-  left: 12%;
+  top: 45%;
+  left: 5%;
 }
 @media (min-width: 820px) {
   .footer .invite::before {
     left: 30%;
+  }
+}
+@media (min-width: 1024px) {
+  .footer .invite::before {
+    width: 150px;
+    left: 27%;
   }
 }
 .footer .invite::after {
@@ -342,20 +415,32 @@ table {
   width: 90px;
   height: 1px;
   background-color: rgb(195, 161, 111);
-  top: 4%;
-  right: 12%;
+  top: 45%;
+  right: 5%;
 }
 @media (min-width: 820px) {
   .footer .invite::after {
     right: 30%;
   }
 }
-.footer p {
-  font-family: "Bodoni72C Bold";
-  font-size: 15px;
-  color: rgb(195, 161, 111);
-  letter-spacing: 7px;
-  padding-top: 30px;
+@media (min-width: 1024px) {
+  .footer .invite::after {
+    width: 150px;
+    right: 27%;
+  }
+}
+.footer .address {
+  display: flex;
+  justify-content: center;
+}
+.footer img {
+  display: block;
+  width: 24px;
+}
+@media (min-width: 1024px) {
+  .footer img {
+    width: 34px;
+  }
 }
 .footer .weddinginvitation {
   display: flex;
@@ -366,11 +451,30 @@ table {
     padding: 0 180px;
   }
 }
+@media (min-width: 1024px) {
+  .footer .weddinginvitation {
+    padding: 0 300px;
+  }
+}
+.footer .weddinginvitation p {
+  font-family: "Bodoni72C Bold";
+  font-size: 15px;
+  color: rgb(195, 161, 111);
+  letter-spacing: 7px;
+  padding-top: 30px;
+}
+@media (min-width: 1024px) {
+  .footer .weddinginvitation p {
+    font-size: 20px;
+  }
+}
 
 .cover2 {
   position: relative;
 }
-.cover2 .to-bottom1, .cover2 .to-bottom2, .cover2 .to-bottom3 {
+.cover2 .to-bottom1,
+.cover2 .to-bottom2,
+.cover2 .to-bottom3 {
   cursor: pointer;
   width: 30px;
   height: 50px;
@@ -379,7 +483,23 @@ table {
   top: 90%;
   left: 46.5%;
 }
-.cover2 .to-bottom1:before, .cover2 .to-bottom2:before, .cover2 .to-bottom3:before {
+@media (min-width: 820px) {
+  .cover2 .to-bottom1,
+  .cover2 .to-bottom2,
+  .cover2 .to-bottom3 {
+    left: 48.5%;
+  }
+}
+@media (min-width: 1024px) {
+  .cover2 .to-bottom1,
+  .cover2 .to-bottom2,
+  .cover2 .to-bottom3 {
+    left: 49%;
+  }
+}
+.cover2 .to-bottom1:before,
+.cover2 .to-bottom2:before,
+.cover2 .to-bottom3:before {
   content: "";
   position: absolute;
   width: 15px;
